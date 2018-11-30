@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2</TargetFramework>
+    <AssemblyName>movieRent.Core.ServicioAplicacion</AssemblyName>
+    <RootNamespace>movieRent.Core.ServicioAplicacion</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	  <GenerateRuntimeConfigurationFiles>true</GenerateRuntimeConfigurationFiles>
+  </PropertyGroup>
+
+</Project>

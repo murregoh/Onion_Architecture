@@ -2,6 +2,14 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>movieRent.Core</AssemblyName>
+    <RootNamespace>movieRent.Core</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	    <GenerateRuntimeConfigurationFiles>true</GenerateRuntimeConfigurationFiles>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../movieRent.Infraestructure/movieRent.Infraestructure.csproj" />
+  </ItemGroup>
 
 </Project>

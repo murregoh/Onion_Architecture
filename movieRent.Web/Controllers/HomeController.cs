@@ -15,16 +15,18 @@ namespace movieRent.Web.Controllers
             return View();
         }
 
-        public IActionResult About()
+        public IActionResult Pelicula()
         {
-            ViewData["Message"] = "Your application description page.";
+            var date = DateTime.Now.ToString("MMddyyyy-HHmmss");
+
+            ViewData["date"] = date;
 
             return View();
         }
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "Nuestro contacto es.";
 
             return View();
         }

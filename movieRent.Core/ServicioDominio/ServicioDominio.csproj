@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>movieRent.Core.ServicioDominio</AssemblyName>
+    <RootNamespace>movieRent.Core.ServicioDominio</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	  <GenerateRuntimeConfigurationFiles>true</GenerateRuntimeConfigurationFiles>
+  </PropertyGroup>
+
+
+
+</Project>

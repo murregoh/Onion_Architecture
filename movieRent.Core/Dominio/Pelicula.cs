@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace movieRent.Core
+namespace movieRent.Core.Dominio
 {
     public class Pelicula
     {
