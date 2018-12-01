@@ -5,7 +5,7 @@ namespace movieRent.Infraestructure
 {
     public partial class AppDbContext : DbContext
     {
-        private string _StringConnection = "server=localhost; Port=0000;user id=admin;password=admin;database=admin_movieRent";
+        private string _StringConnection = "server=10.20.30.3; Port=1433;user id=admin;password=admin;database=movie_Rent";
 
         public AppDbContext() { }
 
